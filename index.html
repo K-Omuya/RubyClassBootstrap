@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-success">
+  <div class="container-fluid ">
+    <a class="navbar-brand" href="#">Ruby class</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Courses
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">python</a></li>
+            <li><a class="dropdown-item" href="#">Machine Learning</a></li>
+            <li><a class="dropdown-item" href="#">Cyber Security</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Data Science</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Intake</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid p-5 bg-secondary text-white text-center ">
+    <h2>Welcome to ruby class</h2>
+</div>
+
+
+
+<!--carausel starts here-->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide h-5" >
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner ">
+    <div class="carousel-item active" data-bs-interval="1000">
+      <img src="assets/images/Screenshot%202024-10-20%20144243.png" class="d-block w-100 " alt="" >
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Tucode Mashinani</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="assets/images/Screenshot%202024-10-20%20144137.png" class="d-block w-100" alt="coding" height="50">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/Screenshot%202024-10-20%20144305.png" class="d-block w-100 height=300 " alt="..."height="50">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--carausel ends here-->
+
+
+
+<div class="container-fluid mt-3 ">
+    <div class="row">
+        <div class="col-4 bg-primary">
+            <h2>Column One</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur deleniti error esse et, fuga incidunt molestiae neque nobis omnis perspiciatis quidem, repellendus voluptates voluptatum. Eaque fugit iusto magnam nulla quidem?</p>
+        </div>
+        <div class="col-4 bg-secondary">
+            <h2>Column Two</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur deleniti error esse et, fuga incidunt molestiae neque nobis omnis perspiciatis quidem, repellendus voluptates voluptatum. Eaque fugit iusto magnam nulla quidem?</p>
+        </div>
+        <div class="col-4 bg-success">
+            <h2>Column Three</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur deleniti error esse et, fuga incidunt molestiae neque nobis omnis perspiciatis quidem, repellendus voluptates voluptatum. Eaque fugit iusto magnam nulla quidem?</p>
+        </div>
+    </div>
+</div>
+
+<!--cards starts here-->
+<div class="card" style="width: 18rem;">
+  <img src="assets/images/Screenshot%202024-10-20%20144137.png" class="card-img-top" alt="..." >
+  <div class="card-body">
+    <h5 class="card-title">TuCode Mashinani</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias amet architecto aut blanditiis, culpa cumque dolore doloribus facere molestias mollitia numquam obcaecati quaerat qui rerum ullam unde voluptates voluptatibus!</p>
+    <a href="#" class="btn btn-primary">Register</a>
+  </div>
+</div>
+<!--cards ends here-->
+
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
